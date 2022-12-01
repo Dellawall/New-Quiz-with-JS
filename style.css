@@ -74,6 +74,7 @@ ol {
 button {
      margin-left: 10px;
      border-radius: 10px;
+     background: transparent;
      color: var(--nav);
      border:1px solid var(--bg);
 }
@@ -83,6 +84,17 @@ button {
    font-family: cursive;
    text-transform: uppercase;
    font-size: .8rem;
+}
+
+span img {
+    width: 30px;
+    height: 30px;
+}
+button .bttn {
+    border: 3px solid var(--nav);
+    width: 40px;
+    height: auto;
+    background: var(--bg);
 }
 
 
