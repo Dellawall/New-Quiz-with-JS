@@ -17,7 +17,7 @@
         </div>
     </header>
     <!-- quiz container -->
-    <div class="quiz-container">
+    <div id="quiz-container">
         <!-- question container -->
         <div class="questions">
         <h2 id="question" class="questionss"></h2>
@@ -30,15 +30,26 @@
         <h4 id="stat"></h4>
         </div>
         <br>
-        <div class="buttons">
+    </div> 
+    <div class="buttons">
         <button type="button" class="next">Next</button>
         </div>
+    <div id="scoreboard">
+        <img src="./Assets/images/20220501_175029.jpg" alt="">
+        <h2 id="score-title">Your score</h2>
+        <h2 id="score"></h2>
+        <button type="button" id="check-answer" onclick="checkAnswer">Check Answer</button><br>
+        <button type="button" id="back-to-quiz" onclick="backToQuiz">Back to Quiz</button>
+    </div>
+    <div id="answerBank">
+        <ol type="1" id="answers"></ol>        
     </div>
 
-    <button class="change-color">
-        <span><img src="./Assets/icons8-sunset-100.png" alt="">
-            <img src="./Assets/dark-mode.png" alt="">
-            <button class="bttn"></button>
+    <button class="change-color next">
+        <span>
+            <img src="./Assets/icons8-sunset-100.png" alt="">
+            <!-- <img src="./Assets/dark-mode.png" alt=""> -->
+            <!-- <button class="botn">Click Me</button> -->
         </span>
     </button>
     <script src="style.js"></script>
